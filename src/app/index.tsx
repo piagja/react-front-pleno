@@ -1,6 +1,7 @@
 import React from 'react';
-import ToUpperCaseComponent from '../components/ToUpperCase';
+import ToUpperCaseComponent from '../components/ToUpperCaseComponent';
 import ToLowerCaseComponent from './../components/ToLowerCaseComponent';
+import ToggleCaseComponent from '../components/ToggleCaseComponent';
 
 const App = () => {
   return (
@@ -12,6 +13,10 @@ const App = () => {
       <ToUpperCaseComponent>
         hello world
       </ToUpperCaseComponent>
+
+      <ToggleCaseComponent initialMode='upper'>
+        Clique Aqui
+      </ToggleCaseComponent>
     </div>
   )
 }
